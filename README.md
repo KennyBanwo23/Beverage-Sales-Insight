@@ -17,35 +17,34 @@ d. Store performance comparisons
 The project specifically addressed the challenges identified by management, including missing values, poorly formatted data, lack of actionable insights, and unclear sales performance metrics.
 
 ## Data Sources
-1 Sales Data: Purchase records across multiple store locations.
+1. Sales Data: Purchase records across multiple store locations.
 2. Vendor Data: Information about suppliers and vendors.
 3. Brand Data: Product brand details including size and descriptions.
 4. Region Data: City and regional store locations.
 5. Calendar Data: Date information to enable time series analysis.
 
 The data required significant cleaning and restructuring, including:
-a. Handling missing values in the Region table.
-b. Splitting and restructuring columns in the Brand and Vendor tables.
-c. Standardizing text formatting across datasets.
-d. Building a date/calendar table using DAX for time-based analysis.
+1. Handling missing values in the Region table.
+2. Splitting and restructuring columns in the Brand and Vendor tables.
+3. Standardizing text formatting across datasets.
+4. Building a date/calendar table using DAX for time-based analysis.
 
 ## Outcomes
 1. Cleaned and modeled multiple datasets into a robust, relational structure for analysis.
 2. Calculated key metrics:
-a. Total revenue
-b. Average purchase price per item
-c. Vendor revenue contribution percentages
-d. Top 5 brands by total revenue
-e. Developed an executive dashboard highlighting:
-f. Revenue trends over time
-g. Best and worst-performing regions and stores
-h. Wine vs. Spirits sales breakdown and size popularity
+- Total revenue
+- Average purchase price per item
+- Vendor revenue contribution percentages
+- Top 5 brands by total revenue
+3.  Developed an executive dashboard highlighting:
+- Revenue trends over time
+- Best and worst-performing regions and stores
+- Wine vs. Spirits sales breakdown and size popularity
 
-3. Discovered key insights:
-
-a. Certain brands and sizes consistently outperformed others.
-b. Some store locations had significantly higher average sales prices.
-c. Vendor contributions were uneven, suggesting areas for supplier renegotiation or optimization.
+4. Discovered key insights:
+- Certain brands and sizes consistently outperformed others.
+- Some store locations had significantly higher average sales prices.
+- Vendor contributions were uneven, suggesting areas for supplier renegotiation or optimization.
 
 ## Recommendations included:
 1. Collecting additional customer demographic data to better tailor marketing efforts.
