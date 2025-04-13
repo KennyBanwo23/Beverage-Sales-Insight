@@ -31,6 +31,7 @@ The data required significant cleaning and restructuring, including:
 
 ## Outcomes
 1. Cleaned and modeled multiple datasets into a robust, relational structure for analysis.
+   
 2. Calculated key metrics:
 - Total revenue
 - Average purchase price per item
